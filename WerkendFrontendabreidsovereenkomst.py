@@ -7,14 +7,14 @@ Created on Wed Nov 29 13:04:37 2023
 import streamlit as st
 import pandas as pd
 import time
-import streamlit as st
+#import streamlit as st
 import random
 from bs4 import BeautifulSoup 
-from htmldocx import HtmlToDocx
-from docx import Document
-import pdfplumber
-import pdfgen
-import pdfkit
+#from htmldocx import HtmlToDocx
+#from docx import Document
+#import pdfplumber
+#import pdfgen
+#import pdfkit
 #new_parser = HtmlToDocx()
 
 
