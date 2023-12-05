@@ -1357,7 +1357,7 @@ onbepaalde tijd in de functie van {naam_functie}. <o:p></o:p></span></p>
 <p class=Default><b><span style='font-size:10.0pt'><o:p>&nbsp;</o:p></span></b></p>"""
     query_arbeidsovereenkomst = str(f"\ndatum in dienst: {datum}") + str(f"\nfunctietitel: {naam_functie}")
     
-    if p < 0.5:
+    if naam_cao == "":
         gegevens_arbeidsovereenkomst += """<p class=Default style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:l5 level1 lfo6'><![if !supportLists]><span
 style='font-size:10.0pt;font-family:"Courier New";mso-fareast-font-family:"Courier New"'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
