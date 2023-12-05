@@ -6,7 +6,7 @@ Created on Wed Nov 29 13:04:37 2023
 """
 import streamlit as st
 import pandas as pd
-import time
+#import time
 #import streamlit as st
 import random
 from bs4 import BeautifulSoup 
