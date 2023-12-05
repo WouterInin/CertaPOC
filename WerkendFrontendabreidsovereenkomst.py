@@ -1599,8 +1599,8 @@ html += werktijden_plaats(type_dienstverband, aantal_uren, aantal_werkdagen_per_
 
     
     #vakantiedagen(aantal_vakantie_dagen, aantal_vakantie_uren)
-aantal_vakantie_dagen = st.text_input("aantal vakantie dagen (leeg i.g.v. uren")
-aantal_vakantie_uren = st.text_input("aantal vakantie uren (leeg i.g.v. dagen")
+aantal_vakantie_dagen = st.text_input("aantal vakantie dagen (leeg i.g.v. uren)")
+aantal_vakantie_uren = st.text_input("aantal vakantie uren (leeg i.g.v. dagen)")
     
 result = vakantiedagen(aantal_vakantie_dagen, aantal_vakantie_uren)
 html += result[0]
