@@ -1548,7 +1548,7 @@ style='mso-tab-count:2'> </span>Handtekening werknemer <o:p></o:p></span></p>
     
     return tekst 
     
-st.title("Gegevensinvoer vast contract Certa advocaten")
+st.title("Gegevensinvoer vast contract Pearson Hardman")
 # Miss in door het model te laten genereren tekst express de basis_html weglaten. dat scheelt echt mega veel namelijk. kun je dan later gewoon voor invoegen
 #test_html = basis_html + gegevens_werkgever("InIn", "Julianaplein 33", "6942LO Den Bosch", "W.A.M. Mulders") + gegevens_werknemer("H.E.E. Hang", "Brandweer", "4614KN", "01-01-2001") + gegevens_arbeidsovereenkomst('01-01-2002', 'AI-engineer', 'IT-specialist') + proeftijd('7 maanden') + werktijden_plaats('fulltime', '40', '7 dagen per week', 'op kantoor in Den Bosch') + loon_en_vakantietoeslag('3000 euro', 'maand') + vakantiedagen('25', '200') +  pensioen("ABP", "je wordt rijk") + opzegging_geheimhouding_ondertekening('Den Bosch', '16-11-2023')
 
